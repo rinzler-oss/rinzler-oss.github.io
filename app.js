@@ -26,7 +26,7 @@
   });
 
   // Scroll fade-in animation
-  var fadeEls = document.querySelectorAll('#about, #skills, #projects, #contact, .project-card, .skill-category');
+  var fadeEls = document.querySelectorAll('#about, #experience, #skills, #projects, #contact, .project-card, .skill-category, .exp-card');
   fadeEls.forEach(function (el) {
     el.classList.add('fade-in');
   });
